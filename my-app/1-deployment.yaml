@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: newsrtinfra-deployment
-  namespace: prod(ns)
+  namespace: prod-ns
   labels:
     app: nginx
 spec:
