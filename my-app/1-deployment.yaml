@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nishamanibalan1999/newsrtinfra:v0.0.01
+        image: nishamanibalan1999/newsrtinfra:v0.1.3
         ports:
         - containerPort: 80
